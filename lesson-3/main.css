@@ -15,10 +15,10 @@ header{
 .name{
 	text-align: center;
 	color:#fff;
-	margin-bottom:10px;
 	position: absolute;
 	bottom:10px;
-	left:30%;
+	left: 50%;
+	margin-left:-155px;
 }
 .exp{
 
@@ -41,9 +41,7 @@ tr, th, td{
 	border-bottom: 1px solid #ddd;
 	text-align: left;
 }
-th{
-	text-align: center;
-}
+
 .links{
 	text-align: center;
 }
