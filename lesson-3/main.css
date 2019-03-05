@@ -1,0 +1,54 @@
+.container{
+	width:75%;
+	margin: 0 auto;
+	font-family: 'Poppins', sans-serif;
+
+}
+header{
+	
+}
+.first{
+	background: url(img/img01.jpg) no-repeat center / cover;
+	height:600px;
+	position: relative;
+}
+.name{
+	text-align: center;
+	color:#fff;
+	margin-bottom:10px;
+	position: absolute;
+	bottom:10px;
+	left:30%;
+}
+.exp{
+
+}
+.titles{
+	text-align: center;
+	color:;
+}
+table{
+width:100%;
+}
+tr:hover{
+	background:rgba(151,152,163,0.5);
+	color:#fff;
+	border-radius:5px;
+}
+
+tr, th, td{
+	width:35%;
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+}
+th{
+	text-align: center;
+}
+.links{
+	text-align: center;
+}
+a img {
+	width:10%;
+}
+
+
