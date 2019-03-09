@@ -23,6 +23,8 @@ h1, h3{
 .title{
 	margin: auto;
 	text-align: center;
+	padding-bottom:10px;
+	padding-top:10px;
 }
 .line{
 	display: grid;
@@ -93,7 +95,7 @@ label[for="6"]:after{
 
 input:checked + label:before{
 	content:'';
-    background-image: url("favicon.png");
+    background-image: url("icon1.png");
     background-size:100%;
     
 
