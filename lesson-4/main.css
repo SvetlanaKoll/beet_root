@@ -37,12 +37,13 @@ h1, h3{
 .line:nth-child(2n){
 	background:#78778e;
 }
-/*не понимаю почему не работает паралельно с .line:hover*/
 
 .line:hover{
+	cursor: pointer;
 	background:#5f6174;
 	border-bottom:2px solid white;
 	border-top:2px solid white;
+
 }
 .line:active{
 	background:#d98279;
@@ -56,10 +57,13 @@ h1, h3{
 input{
    display: none;
 }
-label{
-	padding-left:20px;
-	font-size: 22px;
+label {
+    padding-left: 20px;
+    font-size: 22px;
+    display: inline-block;
+    width: 100%;
 }
+
 label:before{
 	content:'';
 	display: inline-block;
