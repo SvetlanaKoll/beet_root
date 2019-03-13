@@ -1,0 +1,18 @@
+
+@font-face{
+   font-family: 'Proxima Nova';
+    src: url('../fonts/Proxima Nova Bold.otf');
+    
+}
+
+body {
+    font-family: "Proxima Nova";
+}
+
+
+/**{
+	font-family: 'Sniglet', cursive;
+}*/
+h1{
+	font-weight: bold;
+}
