@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+.article{
+	width: 85%;
+	margin: auto;
+}
+.chess{
+	display: grid;
+	grid-template-columns:repeat(8,100px);
+	grid-template-rows: repeat(8,100px);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	justify-content: center;
+}
+/*.box{
+	width: 12.5%;
+	height: 12.5%;
+}*/
+.dark{
+	background:#685141;
+}
+.light{
+	background:#ad9180;
+}
+.fig{
+	background:url(../images/1.png);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+img{
+	width: 100%;
+	margin: auto;
+}
