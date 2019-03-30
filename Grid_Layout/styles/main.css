@@ -1,0 +1,90 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+    width: 70%;
+	margin: auto;
+	font-size: 25px;
+	font-weight: 700;
+	color:#4d5152;
+}
+.grid{
+	
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	grid-template-rows: 150px 165px 150px 195px 135px;
+	grid-gap:15px;
+	grid-template-areas: "q q q q q q r r r r r r "
+						"a a a a a a b b c c d d"
+						" a a a a a a f f f e e e"
+						"j j j j k k k k l l m m "
+						"n n o o o o o o p p p p ";
+ 
+}
+.grid>*{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid__box__1{
+	grid-area: a;
+	background:#fa688a;
+}
+.grid__box__2{
+	grid-area: b ;
+	background:#8a95ef;
+}
+.grid__box__3{
+	grid-area: c;
+	background:#8a95ef;
+}
+.grid__box__4{
+	grid-area: d;
+	background:#8a95ef;
+}
+.grid__box__5{
+	grid-area: f;
+	background:#ffc569;
+}
+.grid__box__6{
+	grid-area: e;
+	background:#ffc569;
+}
+.grid__box__7{
+	grid-area: j;
+	background:#588cc7;
+}
+.grid__box__8{
+	grid-area: k ;
+	background:#588cc7;
+}
+.grid__box__9{
+	grid-area: l;
+	background:#588cc7;
+}
+.grid__box__10{
+	grid-area: m;
+	background:#588cc7;
+}
+.grid__box__11{
+	grid-area: n;
+	background:#6652ad;
+}
+.grid__box__12{
+	grid-area: o;
+	background:#6652ad;
+}
+.grid__box__13{
+	grid-area: p;
+	background:#6652ad;
+}
+.grid__box__14{
+	grid-area: q;
+	background:#afdfbf;
+}
+.grid__box__15{
+	grid-area: r;
+	background:#68c5b8;
+	
+}
