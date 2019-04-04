@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+.container{
+	font-family: 'Montserrat', sans-serif;
+	margin: auto;
+	margin-top: 50px;
+	width: 75%;
+	height: 600px;
+	background:#fdde7e;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.box{
+	height: 445px;
+	width: 31%;
+	background:#fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.box--center{
+	height: 500px;
+}
+.box>*{
+    text-align: center;
+	width: 50%;
+}
+.box__price{
+	font-size: 70px;
+	font-weight: 700;
+	color: #02995b;
+}
+.box__title{
+	margin: 0;
+	margin-top: 30px;
+	font-size: 56px;
+	font-weight: 400;
+	color:#000;
+}
+.box__descr{
+	font-size: 20px;
+	font-weight: 400;
+	color:#000;
+}
