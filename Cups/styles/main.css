@@ -19,6 +19,11 @@
 	justify-content: center;
 	align-items: center;
 }
+.box:hover{
+	transform: scale(1.1, 1.1);
+	cursor: pointer;
+	transition:2s;
+}
 .box--center{
 	height: 500px;
 }
@@ -30,6 +35,11 @@
 	font-size: 70px;
 	font-weight: 700;
 	color: #02995b;
+}
+.box__cup:hover{
+	transform: scale(1.1, 1.1);
+	cursor: pointer;
+	transition:1s;
 }
 .box__title{
 	margin: 0;
