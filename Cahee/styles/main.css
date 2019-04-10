@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700');
+
+*{
+	box-sizing: border-box;
+	color: #262626;
+	font-family: 'Raleway', sans-serif;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.strawberry{
+	height: 1000px;
+	background: #f9f8fb;
+	background: url(../images/strawberry.png);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.first-line{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 40px;
+}
+.first-line__nav{
+	display: flex;
+	justify-content: space-around;
+}
+.first-line__logo{
+	font-family: 'Pacifico', cursive;
+	font-size: 3.125em;	
+}
+.first-line__logo:hover{
+	cursor: pointer;
+	color: #ff6033;
+	transition: 0.6s;
+	transform: scale(1.1, 1.1);
+}
+.first-line__li{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 700;
+	margin-left: 40px;
+}
+.first-line__li:hover{
+	cursor: pointer;
+	color: #ff6033;
+	border-top: 2px solid  #ff6033;
+	transition: 0.6s;
+	transform: scale(1.1, 1.1);
+}
+.strawberry-text{
+	width: 31%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 250px;
+}
+.strawberry-text__title{
+	font-size: 3.75em;
+	font-weight: 700;
+}
+.strawberry-text__desc{
+	font-size: 1.06em;
+	line-height: 1.58;
+	margin-top: 30px;
+	font-weight: 300;
+	text-align: left;
+}
+.strawberry-text__btn{
+	margin-top: 30px;
+	width: 200px;
+	height: 56px;
+	border: none;
+	color: #fff;
+	background: #ff6033;
+	font-weight: 300;
+	font-size: 1.25em;
+	text-transform: uppercase;
+}
+.strawberry-text__btn:hover, .strawberry__scroll:hover{
+	cursor: pointer;
+	transition: 0.6s;
+	transform: scale(1.1, 1.1);
+
+}
+.strawberry__scroll{
+	margin-top: 185px;
+}
