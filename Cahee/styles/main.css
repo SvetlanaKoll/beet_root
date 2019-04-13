@@ -384,7 +384,13 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+
+
+.violet-grid__item:hover > .violet-grid__food{
+	background-image: url(../images/gr.png.png);
+	background-repeat: repeat-x;
 }
 
 .violet-grid__date{
@@ -392,6 +398,7 @@
 	height: 60px;
 	border-radius: 10px;
 	margin-left: 30px;
+	margin-top: 20px;
 	background: rgba(86, 92, 100, 0.5);
 	display: flex;
 	justify-content: center;
@@ -406,15 +413,15 @@
     text-align: center;
 }
 .violet-grid__food{
-	width: 87%;
-	 margin-left: 20px;
-   
+	width:100%;
+	padding-left: 20px;
 }
 .violet-grid__name{
 	font-weight: 700;
 	font-size: 1.2em;
     color: #fff;
     margin: 0;
+    width: 87%;
 }
 .violet-grid__author{
 	font-weight: 300;
