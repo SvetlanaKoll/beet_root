@@ -48,6 +48,7 @@
 	width: 45%;	
 	height: 60px;	
 	border: none;
+	
 }
 .header-inputs__destination::placeholder{
 	font-size: 0.875em;	
