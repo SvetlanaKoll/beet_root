@@ -215,7 +215,6 @@
 	font-weight: 700;
 }
 .yellow{
-	height: 1536px;
 	background: #ffe92f;
 
 }
@@ -297,9 +296,9 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 48px;	
+	margin-bottom: 80px;
 }
 .white-small{
-	height: 500px;
 	background: #fff;
 	background: url(../images/blueberry.jpg);
 	background-position: center;
@@ -323,6 +322,7 @@
 	background: transparent;
 	border: 1px solid #262626;
 	padding-left: 15px;
+	margin-bottom: 80px;
 }
 .white-small__btn{
 	width: 170px;
@@ -336,9 +336,10 @@
 	font-weight: 300;
 	font-size: 1.06em;
 	line-height: 1.58;
+	margin-bottom: 80px;
 }
 .violet{
-	height: 864px;
+	
 	background: #b07cf7;
 }
 .yellow-box__title--white{
@@ -355,7 +356,6 @@
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-around;
-	height: 315px;
 	width: 100%;
 }
 .violet-grid__item1{
@@ -424,7 +424,6 @@
 	
 }
 .contact{
-	height: 866px;
 	background: url(../images/img.jpg);
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -437,6 +436,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 80px;
 }
 .input-box{
 	display: flex;
@@ -483,7 +483,6 @@
 	margin: 0;
 }
 .black-footer{
-	height: 90px;
 	background: #262626;
 }
 .black-footer-box{
