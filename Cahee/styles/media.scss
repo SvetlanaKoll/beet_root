@@ -1,0 +1,109 @@
+@media screen and (max-width: 400px) {
+	.first-line{
+		display: flex;
+		-webkit-flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top: 40px;
+	}
+	.first-line__nav{
+		display: flex;
+		flex-direction: column; 
+		justify-content: center;
+		font-family: 'Pacifico', cursive;
+        padding-left: 0;
+        margin-top: 25px;
+
+	
+	}
+	.first-line__li{
+		display: block;
+		text-transform: uppercase;
+		font-size: 0.6em;
+        font-weight: 700;
+        margin-left: 0;
+        line-height: 1.4em;
+    }
+    .first-line__logo{
+        font-family: 'Pacifico', cursive;
+        font-size: 3.125em;	
+        color: #ff6033;
+    }
+    .strawberry-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        
+    }
+    .strawberry-text__title{
+        font-size: 3.0em;
+        font-weight: 700;
+        text-align: left;
+        color: #ff6033;
+    }
+    .strawberry-text__desc{
+        font-size: 1.06em;
+        line-height: 1.58;
+        margin-top: 30px;
+        font-weight: 300;
+        text-align: left;
+    }
+    .strawberry-text__btn{
+        margin-top: 30px;
+        max-width: 150px;
+        height: 50px;
+        border: none;
+        color: #fff;
+        background: #ff6033;
+        font-weight: 300;
+        font-size: 1em;
+        text-transform: uppercase;
+    }
+    .green{
+        background: #00bebe;
+        color: #fff;	
+    }
+    .green-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .green-box__img{
+        width: 50%;
+        max-height: 150px;
+        background: url(../images/cup.png);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 70%;
+        margin: 0 auto;
+    }
+    .text-about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .text-about__title{
+        font-size: 2.5em;
+        font-weight: 700;
+        color: #fff;	
+        margin: 0;
+    }
+    .text-about__desc{
+        color: #fff;
+        font-weight: 300;
+        font-size: 0.875em;
+        line-height: 1.58;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .blue{
+        height: 790px;
+        background: #70bfff;
+    }
+  }  

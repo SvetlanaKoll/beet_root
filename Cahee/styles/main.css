@@ -11,9 +11,8 @@
 	margin: auto;
 }
 .strawberry{
-	height: 916px;
 	background: #f9f8fb;
-	background: url(../images/strawberry.jpg);
+	background: url(../images/clubnika.png);
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -27,6 +26,9 @@
 .first-line__nav{
 	display: flex;
 	justify-content: space-around;
+	font-family: 'Pacifico', cursive;
+	font-size: 3.125em;	
+
 }
 .first-line__logo{
 	font-family: 'Pacifico', cursive;
@@ -58,7 +60,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	margin-top: 250px;
+	margin-top: 200px;
 }
 .strawberry-text__title{
 	font-size: 3.75em;
@@ -84,13 +86,8 @@
 	text-transform: uppercase;
 }
 .strawberry__scroll{
-	width: 30px;
-	height: 50px;
-	background: url(../images/scroll.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 60%;
 	margin: auto;
+	margin-top: 85px;
 
 }
 .strawberry-text__btn:hover,
@@ -108,11 +105,9 @@
 	transform: scale(1.1, 1.1);
 
 }
-.strawberry__scroll{
-	margin-top: 185px;
-}
+
+
 .green{
-	height: 700px;
 	background: #00bebe;
 	color: #fff;	
 }
@@ -149,7 +144,6 @@
 	line-height: 1.58;
 }
 .blue{
-	height: 790px;
 	background: #70bfff;
 }
 .btns-and-tomato{
@@ -376,7 +370,6 @@
 	background: url(../images/box13.jpg);
 }
 .violet-grid__item{
-	height: 315px;
 	width: 31%;
 	background-position: center;
 	background-size: 104%;
@@ -415,6 +408,7 @@
 .violet-grid__food{
 	width:100%;
 	padding-left: 20px;
+	margin-top: 70px;
 }
 .violet-grid__name{
 	font-weight: 700;
