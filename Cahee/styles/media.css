@@ -62,7 +62,7 @@
     line-height: 1.58;
     margin-top: 30px;
     font-weight: 300;
-    text-align: left; }
+    text-align: center; }
   .strawberry-text__btn {
     margin-top: 30px;
     max-width: 150px;
@@ -123,5 +123,91 @@
     margin-bottom: 50px;
     text-align: center; }
   .blue {
-    height: 790px;
-    background: #70bfff; } }
+    background: #70bfff; }
+  .btns-and-tomato {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-height: 600px; }
+  .btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px; }
+  .btns__btn {
+    max-width: 200px;
+    height: 80px;
+    background: #fff;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 1em;
+    font-weight: 700;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  .btns__btn--text {
+    max-width: 150px;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .btns__btn--icon {
+    width: 15%;
+    height: 80px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .tomato {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: url(../images/tomato.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    max-width: 200px;
+    max-height: 200px; }
+  .tomato__services {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700; }
+  .yellow {
+    height: 1536px;
+    background: #ffe92f; } }
