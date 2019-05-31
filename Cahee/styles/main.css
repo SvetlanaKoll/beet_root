@@ -179,16 +179,16 @@
 }
 
 .btns__btn--icon1{
-	background: url(icon1.svg);
+	background: url(../images/icon1.svg);
 }
 .btns__btn--icon2{
-	background: url(icon2.svg);
+	background: url(../images/icon2.svg);
 }
 .btns__btn--icon3{
-	background: url(icon3.svg.svg);
+	background: url(../images/icon3.svg.svg);
 }
 .btns__btn--icon4{
-	background: url(icon4.svg);
+	background: url(../images/icon4.svg);
 }
 .btns__btn--icon{
 	width: 25%;
