@@ -1,4 +1,7 @@
 @media (max-width: 400px) {
+    *{
+        box-sizing: border-box;
+    }
     .header-container {
         width: 90%;
         margin: auto;
@@ -36,13 +39,25 @@
     }
     .header-titles__btn{
         margin-top: 60px;
+        width: 65%;
+        height: 40px;
     }
+
+      
+     
+
     .portfolio-item {
        width: 100%;
+       margin: 0 auto;
+      
       }
       .item {
-        width: 100%;
+    
+        width: 90%;
+        height: 150px;
+        
       }
+
     .portfolio-buttons{
         width: 100%;
         display: flex;
