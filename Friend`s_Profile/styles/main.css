@@ -1,0 +1,53 @@
+.container {
+  width: 75%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.container--first {
+  background: url(../img/img01.jpg) no-repeat center/cover;
+  height: 600px;
+  position: relative;
+}
+
+.container__name {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -155px;
+}
+
+.container__titles {
+  text-align: center;
+}
+
+.container__table {
+  width: 100%;
+}
+
+.table-row:hover {
+  background: rgba(151, 152, 163, 0.5);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.table-row, .table-row__h, .table-row__d {
+  width: 35%;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.links {
+  text-align: center;
+}
+
+.links__img {
+  width: 10%;
+}
+
+.hello {
+  width: 10%;
+}
+/*# sourceMappingURL=main.css.map */

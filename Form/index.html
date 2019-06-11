@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="icon.png">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<link rel="stylesheet" href="styles/main.css">
+	<title>Form</title>
+</head>
+<body>
+	<form action="#" class="form">
+        <div class="form-input">
+        	<label class="form-input__label" for="name">Name</label>
+		    <input class="form-input__field" type="text" name="name" placeholder="Full Name">
+		</div>
+		<div class="form-input">
+			<label class="form-input__label" for="email">Email</label>
+			<input class="form-input__field" type="email" name="email" placeholder="Email address">
+		</div>
+		<div class="form-input">
+			<label class="form-input__label" for="passes">Number of Passes</label>
+			<select class="form-input__field form-input__field--selected" name="passes" id="">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="4">5</option>
+			</select>
+		</div>
+		<div class="form-input">
+			<label class="form-input__label" for="comment">Comments</label>
+			<textarea rows="6" class="form-input__field form-input__field--textarea" name="comment">
+		</textarea>
+	</div>
+		<div class="form-input">
+		<button type="submit"  name="submit" >Purchase</button>
+		</div>
+	</form>
+</body>
+</html>

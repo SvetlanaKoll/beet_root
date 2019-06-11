@@ -1,0 +1,291 @@
+@media screen and (max-width: 1300px) {
+  .links__link {
+    width: 30px;
+    height: 30px;
+  }
+  .links__link > .fab {
+    line-height: 30px;
+  }
+  .header-titles__title {
+    font-size: 4em;
+  }
+  .we-do__title, .trade-text__2,
+  .latest-news__title, .gallery__title {
+    font-size: 2.5em;
+  }
+  .slide-text__title {
+    font-size: 1.2em;
+  }
+  .slide-text__desc {
+    line-height: 1.2;
+  }
+  .touch-box__title {
+    font-size: 2.5em;
+    margin-top: 30px;
+  }
+  .touch-contacts__contact {
+    font-size: 0.875em;
+    margin-top: 35px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .links__link {
+    width: 20px;
+    height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .links__link > .fab {
+    font-size: 0.7em;
+  }
+  .header-titles__title {
+    font-size: 3.54em;
+  }
+  .we-do__title, .trade-text__2,
+  .latest-news__title, .gallery__title {
+    font-size: 2em;
+  }
+  .slide-text__title {
+    font-size: 1em;
+  }
+  .slide-text__desc {
+    line-height: 1em;
+  }
+  .touch-box__title {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  .touch-contacts__contact {
+    font-size: 0.7em;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .first-line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .first-line__logo {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  .menu {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .menu__li {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  .links {
+    width: 50%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 40px;
+  }
+  .header-titles {
+    margin-top: 100px;
+  }
+  .header-titles__title {
+    font-size: 3em;
+  }
+  .header-titles__desc {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 1em;
+  }
+  .header-scroll {
+    margin-top: 90px;
+  }
+  .we-do {
+    margin-top: 50px;
+  }
+  .commerce-and-trade-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .commerce-and-trade-box--reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .trade-img {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .trade-img__blue {
+    width: 100%;
+    height: 350px;
+    top: 130px;
+  }
+  .trade-img__blue--purple {
+    top: 970px;
+    width: 100%;
+    left: 30%;
+  }
+  .trade-img__grey {
+    height: 350px;
+  }
+  .vertical-dots {
+    display: none;
+  }
+  .trade-text {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 30px;
+  }
+  .trade-text__btn {
+    width: 70%;
+    margin-top: 25px;
+  }
+  .trade-text__location {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .news {
+    padding-bottom: 100px;
+  }
+  .latest-news {
+    margin-top: 40px;
+  }
+  .news-slider__slide {
+    margin-top: 50px;
+  }
+  .slide-img {
+    height: 200px;
+  }
+  .slide-text__title {
+    font-size: 1em;
+  }
+  .slide-author__name {
+    font-size: 1em;
+  }
+  .gallery {
+    margin-top: 40px;
+  }
+  .gallery-box {
+    padding-bottom: 50px;
+  }
+  .gallery__title {
+    font-size: 2em;
+  }
+  .gallery-grid {
+    margin-top: 40px;
+    -ms-grid-rows: 120px 120px 120px;
+        grid-template-rows: 120px 120px 120px;
+    -ms-grid-columns: 48% 48%;
+        grid-template-columns: 48% 48%;
+        grid-template-areas: "a a" "b c" "d e";
+  }
+  .gallery__btn {
+    width: 70%;
+  }
+  .touch-wrapper {
+    left: 10%;
+    right: 10%;
+    height: 610px;
+  }
+  .touch-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .touch-box__title {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  .touch-box__contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100px;
+  }
+  .touch-contacts {
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    margin-top: -60px;
+  }
+  .touch-contacts__contact {
+    font-size: 0.875em;
+    margin-top: 10px;
+  }
+  .touch-inputs {
+    width: 80%;
+    margin: auto;
+  }
+  .touch-inputs__name {
+    font-size: 0.875em;
+    margin-top: 70px;
+  }
+  .touch-inputs__email {
+    font-size: 0.875em;
+    margin-top: 10px;
+  }
+  .touch-inputs__btn {
+    width: 50%;
+    margin-top: 30px;
+  }
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 400px;
+  }
+  .logo-rights {
+    width: 80%;
+    margin: auto;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0;
+  }
+  __logo {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
